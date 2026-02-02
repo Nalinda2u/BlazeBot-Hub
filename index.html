@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://primary-production-9dfb3.up.railway.app/webhook/371c46ab-a728-4647-8a4f-2f91cc1522a0/chat'});
+</script>
+
+
+<a href="https://wa.me/94766823881?text=Hello! I'm interested in renting a blazer." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp my-float"></i>
+</a>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlazeBot Hub - Premium Blazer Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">BlazeBot Hub</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Elegance for Every Occasion</h1>
+            <p>Discover our curated collection of blazers for rent or purchase.</p>
+            <button class="btn-primary">Explore Collection</button>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <aside class="sidebar">
+            <h2>Filters</h2>
+            <div class="filter-group">
+                <h3>Category</h3>
+                <ul>
+                    <li><input type="checkbox" id="formal"><label for="formal">Formal</label></li>
+                    <li><input type="checkbox" id="casual"><label for="casual">Casual</label></li>
+                    <li><input type="checkbox" id="wedding"><label for="wedding">Wedding</label></li>
+                    <li><input type="checkbox" id="business"><label for="business">Business</label></li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h3>Size</h3>
+                <div class="size-options">
+                    <button class="size-btn">XS</button>
+                    <button class="size-btn">S</button>
+                    <button class="size-btn">M</button>
+                    <button class="size-btn">L</button>
+                    <button class="size-btn">XL</button>
+                    <button class="size-btn">XXL</button>
+                </div>
+            </div>
+            <div class="filter-group">
+                <h3>Color</h3>
+                <div class="color-options">
+                    <span class="color-box black active"></span>
+                    <span class="color-box navy"></span>
+                    <span class="color-box grey"></span>
+                    <span class="color-box maroon"></span>
+                    <span class="color-box beige"></span>
+                </div>
+            </div>
+            <button class="btn-clear-filters">Clear Filters</button>
+        </aside>
+
+        <main class="product-grid">
+            <h2>Blazer Collection</h2>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="images/Classic Black.jpg">
+                    <div class="product-info">
+                        <h3>Classic Black Slim Fit Blazer</h3>
+                        <p class="price">LKR 15,000 (Buy) | LKR 1,500/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.pollinations.ai/prompt/man%20in%20navy%20blue%20linen%20blazer%20at%20galle%20face%20green%20at%20sunset,%20sri%20lankan%20model,%20stylish" alt="Navy Blue Linen Blazer">
+                    <div class="product-info">
+                        <h3>Navy Blue Linen Blazer</h3>
+                        <p class="price">LKR 18,000 (Buy) | LKR 1,800/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.pollinations.ai/prompt/man%20in%20grey%20checked%20blazer%20at%20a%20luxury%20hotel%20lobby%20in%20colombo,%20sophisticated" alt="Grey Checked Blazer">
+                    <div class="product-info">
+                        <h3>Grey Checked Business Blazer</h3>
+                        <p class="price">LKR 16,500 (Buy) | LKR 1,650/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Maroon Velvet.jpg">
+                    <div class="product-info">
+                        <h3>Maroon Velvet Wedding Blazer</h3>
+                        <p class="price">LKR 22,000 (Buy) | LKR 2,200/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+                 <div class="product-card">
+                    <img src="https://image.pollinations.ai/prompt/man%20in%20beige%20casual%20blazer%20at%20a%20beachside%20restaurant%20in%20mirissa,%20casual%20style" alt="Beige Casual Blazer">
+                    <div class="product-info">
+                        <h3>Beige Casual Linen Blazer</h3>
+                        <p class="price">LKR 17,000 (Buy) | LKR 1,700/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.pollinations.ai/prompt/man%20in%20charcoal%20grey%20suit%20blazer%20in%20a%20modern%20office%20in%20colombo,%20professional" alt="Charcoal Grey Suit Blazer">
+                    <div class="product-info">
+                        <h3>Charcoal Grey Professional Blazer</h3>
+                        <p class="price">LKR 16,000 (Buy) | LKR 1,600/day (Rent)</p>
+                        <button class="btn-add-cart">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-section about">
+                <h3>About BlazeBot Hub</h3>
+                <p>Your ultimate destination for premium blazers for rent or purchase. Experience style and elegance.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</p>
+                <p><i class="fas fa-phone"></i> +94 77 777 777</p>
+                <p><i class="fas fa-envelope"></i> info@blazebothub.lk</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BlazeBot Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
